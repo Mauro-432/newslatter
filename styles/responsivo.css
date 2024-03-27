@@ -1,0 +1,49 @@
+
+
+
+
+@media screen and (max-width: 760px){
+    body{
+        /*background-color: red;*/
+        padding-bottom: 50px;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+        text-align: center;
+    }
+
+   p{
+    padding-left: 140px;
+    text-align: center;
+   }
+
+    form{
+        margin: 0 auto;
+        width: 105%;
+    }
+
+    form >[type="submit"] {
+        width: 30%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
